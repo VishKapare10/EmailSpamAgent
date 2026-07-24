@@ -1,102 +1,29 @@
-# EmailSpamAgent 📧🤖
+# EmailSpamAgent
 
-EmailSpamAgent is a machine learning-based email spam detection project built using **.NET, C#, and ML.NET**. It analyzes email content and classifies messages as **Spam** or **Not Spam (Ham)** using a trained machine learning model.
+EmailSpamAgent is an **ML.NET-powered email spam detection system** built with **.NET and C#**.  
+It leverages machine learning techniques to classify emails as **spam** or **legitimate messages** through text analysis and binary classification.  
+The project demonstrates **AI-driven automation, model training, and intelligent email filtering** within the .NET ecosystem.
 
-The project demonstrates how ML.NET can be used to integrate AI capabilities into .NET applications for intelligent text classification and automated email filtering.
+---
 
 ## 🚀 Features
+- 📧 **Spam Detection**: Classifies emails into spam or non-spam categories.
+- 🤖 **ML.NET Integration**: Uses ML.NET for model training and evaluation.
+- ⚡ **Binary Classification**: Implements supervised learning for text classification.
+- 🔍 **Text Analysis**: Extracts features from email content for accurate predictions.
+- 🛠️ **.NET Ecosystem**: Built with C# and integrates seamlessly with .NET applications.
 
-* Email spam classification using ML.NET
-* Text analysis and feature extraction
-* Binary classification model training
-* Fast local predictions
-* .NET-based AI/ML implementation
-* Extensible architecture for future improvements
+---
 
-## 🛠️ Technologies Used
+## 🏗️ Project Structure
+- **Data**: Training and test datasets containing labeled email samples.
+- **Model**: ML.NET pipeline for preprocessing, training, and evaluation.
+- **App**: C# application that loads the trained model and classifies new emails.
+- **Utils**: Helper functions for text preprocessing and feature extraction.
 
-* C#
-* .NET
-* ML.NET
-* Machine Learning
-* Text Classification
+---
 
-## 📂 Project Structure
-
-```
-EmailSpamAgent/
-│
-├── Data/
-│   └── EmailData.cs
-│
-├── Models/
-│   └── SpamPrediction.cs
-│
-├── Training/
-│   └── ModelTrainer.cs
-│
-├── Prediction/
-│   └── SpamPredictor.cs
-│
-└── Program.cs
-```
-
-## ⚙️ Getting Started
-
-### Prerequisites
-
-* .NET SDK installed
-* Visual Studio / VS Code
-* ML.NET NuGet packages
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/EmailSpamAgent.git
-cd EmailSpamAgent
-```
-
-### Install Dependencies
-
-```bash
-dotnet restore
-```
-
-### Run Application
-
-```bash
-dotnet run
-```
-
-## 🧠 How It Works
-
-1. Email data is loaded from a training dataset.
-2. ML.NET processes and transforms email text into machine-readable features.
-3. A binary classification algorithm trains the spam detection model.
-4. The trained model predicts whether new emails are spam or legitimate.
-
-## 📊 Example Prediction
-
-Input:
-
-```
-Congratulations! You have won a free prize. Click here now!
-```
-
-Output:
-
-```
-Prediction: Spam
-```
-
-## 🔮 Future Enhancements
-
-* Real-time email monitoring
-* Integration with email providers
-* Improved NLP models
-* Confidence score visualization
-* Web API deployment
-
-## 📄 License
-
-This project is licensed under the MIT License.
+## ⚙️ Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VishKapare10/EmailSpamAgent.git
